@@ -1,0 +1,64 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	text-align: center;
+	
+	background-color: aqua;
+}
+
+header h1{
+	font-size: 44px;
+	margin: 0;
+}
+
+
+#menu{
+	font-size: 24px;
+	background-color: blanchedalmond;
+}
+
+#menu img{
+	height: 24px;
+}
+
+.dim{
+	width: 100%;
+	background-image: url("../img/diamonds.gif");
+	background-repeat: repeat-x;
+}
+
+article{
+	padding-top: 14px;
+	width: 800px;
+	margin: auto;
+	padding-bottom: 10px;
+
+}
+
+
+footer{
+
+	border: 2px solid black;
+	text-align: center;
+
+	position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+
+	background-image: url("../img/background_animated_twinkle_color_stars.gif");
+	background-repeat: repeat-x;
+}
+
+#spons{
+	font-size: 24px;
+}
+
+#wow_hed{
+	height: 80px;
+  	margin-top: -20px;
+}
