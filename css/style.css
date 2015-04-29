@@ -5,7 +5,6 @@ html, body{
 
 header{
 	text-align: center;
-	
 	background-color: aqua;
 }
 
@@ -15,6 +14,7 @@ header h1{
 }
 
 
+
 #menu{
 	font-size: 24px;
 	background-color: blanchedalmond;
@@ -22,6 +22,23 @@ header h1{
 
 #menu img{
 	height: 24px;
+}
+
+#img_smal{
+	width: 60px;
+}
+
+.folow{
+  
+  position: absolute;
+  margin: 0px;
+  
+  
+  width: 110px;
+  height: 40px;
+
+  background-image: url("../img/justclick.gif");
+  background-repeat: repeat-x;
 }
 
 .dim{
@@ -38,7 +55,52 @@ article{
 
 }
 
+#iconas{
+	  position: absolute;
+  float: left;
+  width: 80px;
+}
 
+#sdadg{
+	margin-bottom: 200px;
+}
+
+.profile{
+	width: 300px;
+	float:left;
+	border: 2px solid black;
+	margin: 4px;
+}
+
+.profilePic{
+	width: 250px;
+}
+
+iframe{
+	width: 800px;
+	height: 900px;
+}
+
+#camel{
+	  width: 60px;
+}
+
+#down{
+	width: 240px;
+}
+
+#faq{
+	margin-left: -400px;
+
+}
+
+#question dt{
+	  font-weight: bold;
+}
+
+#question{
+	margin-bottom: 60px;
+}
 footer{
 
 	border: 2px solid black;
@@ -50,8 +112,22 @@ footer{
    height:30px;
    width:100%;
 
+	background-color: white;
+}
+#smetal{
+	height: 24px;
+}
+
+
+footer div{
 	background-image: url("../img/background_animated_twinkle_color_stars.gif");
 	background-repeat: repeat-x;
+}
+
+.ad{
+	  float: left;
+  margin: 10px;
+  margin-bottom: 50px;
 }
 
 #spons{
