@@ -1,21 +1,20 @@
 <!--
-	 /$$$$$$$                                                          /$$$$$$$  /$$   /$$               /$$                          
-	| $$__  $$                                                        | $$__  $$|__/  | $$              | $$                          
+	 /$$$$$$$                                                          /$$$$$$$  /$$   /$$               /$$
+	| $$__  $$                                                        | $$__  $$|__/  | $$              | $$
 	| $$  \ $$  /$$$$$$  /$$$$$$$  /$$$$$$$  /$$   /$$  /$$$$$$$      | $$  \ $$ /$$ /$$$$$$    /$$$$$$$| $$$$$$$   /$$$$$$   /$$$$$$$
 	| $$$$$$$  /$$__  $$| $$__  $$| $$__  $$| $$  | $$ /$$_____/      | $$$$$$$ | $$|_  $$_/   /$$_____/| $$__  $$ /$$__  $$ /$$_____/
-	| $$__  $$| $$$$$$$$| $$  \ $$| $$  \ $$| $$  | $$|  $$$$$$       | $$__  $$| $$  | $$    | $$      | $$  \ $$| $$$$$$$$|  $$$$$$ 
+	| $$__  $$| $$$$$$$$| $$  \ $$| $$  \ $$| $$  | $$|  $$$$$$       | $$__  $$| $$  | $$    | $$      | $$  \ $$| $$$$$$$$|  $$$$$$
 	| $$  \ $$| $$_____/| $$  | $$| $$  | $$| $$  | $$ \____  $$      | $$  \ $$| $$  | $$ /$$| $$      | $$  | $$| $$_____/ \____  $$
 	| $$$$$$$/|  $$$$$$$| $$  | $$| $$  | $$|  $$$$$$$ /$$$$$$$/      | $$$$$$$/| $$  |  $$$$/|  $$$$$$$| $$  | $$|  $$$$$$$ /$$$$$$$/
-	|_______/  \_______/|__/  |__/|__/  |__/ \____  $$|_______/       |_______/ |__/   \___/   \_______/|__/  |__/ \_______/|_______/ 
-	                                         /$$  | $$                                                                                
-	                                        |  $$$$$$/                                                                                
-	                                         \______/                                                                                 
+	|_______/  \_______/|__/  |__/|__/  |__/ \____  $$|_______/       |_______/ |__/   \___/   \_______/|__/  |__/ \_______/|_______/
+	                                         /$$  | $$
+	                                        |  $$$$$$/
+	                                         \______/
 	Hemsida skapad av
-	 ____ ____ ____ ____ ____ ____ ____ _________ ____ ____ ____ ____ ____ ____ ____ ____ 
+	 ____ ____ ____ ____ ____ ____ ____ _________ ____ ____ ____ ____ ____ ____ ____ ____
 	||R |||i |||c |||h |||a |||r |||d |||       |||S |||o |||d |||e |||r |||m |||a |||n ||
 	||__|||__|||__|||__|||__|||__|||__|||_______|||__|||__|||__|||__|||__|||__|||__|||__||
-	|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/_______\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|  
-	                                                                                                                      
+	|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/_______\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|
  -->
 
 
@@ -25,11 +24,38 @@
         <meta charset="UTF-8"/>
         <link rel="icon" type="image/png" href="img/favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <title>Bennys Bitches</title>
+
+		<meta property='og:title' content='Bennys Bitches' />
+		<meta property='og:site_name' content='http://bennysbitches.com'/>
+		<meta property='og:url' content='http://bennysbitches.com/index.html' />
+		<meta property='og:description' content='Året var 1993, under en stormig natt så skapade gudarna ett barn vars framtid skulle innebära en hel del bithes. I flera år låg hans krafter vilandes till en dag då det var dags för Kvastkamp 2015 och han öde skulle uppfyllas. Han blåste i Gethornet av Förintelse och så de första Bitches skapades. De kämpade sig igenom tävlingarna där de vann Lekarna och därmed fick folkets kärlek och tro. Folket kände därefter att de ville vara en del utav denna gemenskap och så skapades Bennys Mini Bitches, det första steget för att bli en fullbordad Bitch.' />
+		<meta property='og:image' content='img/bennsys.jpg'/>
+		<meta property='og:image:type' content='image/jpg'/>
+
+
+		<title>Bennys Bitches</title>
+
+
     </head>
     <body>
-    	
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<template id="template">
+			<div class="cockie">
+				<span>Vi använder oss av kakor för att locka nya medlemmar!</span>
+				<input type="submit" id="jf" value="Jag förstår">
+				<input type="submit" id="ok" value="Okej">
+			</div>
+		</template>
 	    <main>
+		<div id="cockieHolder"></div>
 	    <img id="iconas" src="img/bennsys.jpg">
 		    <header>
 
@@ -38,7 +64,8 @@
 		    	<div id="menu">
 		    		<img class="dim" src="">
 		    		</br>
-		    		<a href="index.html">Start <img src="img/moblog_2da64cc6.gif"></a>|<a href="medlemmar.html"> medlemmar <img src="img/heart_turn.gif"> </a>|<a href="stadga.html">Stadga <img src="img/new.gif"></a>|<a href="kontakt.html"> Kontakt <img src="img/ask.gif"></a>|<a href="ansokan.html"> Ansök! <img src="img/t-rex_e0.gif"> </a>
+		    		<a href="index.html">Start <img src="img/moblog_2da64cc6.gif"></a>|<a href="medlemmar.html"> medlemmar <img src="img/heart_turn.gif"> </a>|<a href="stadga.html">Stadga <img src="img/new.gif"></a>|<a href="kontakt.html"> Kontakt <img src="img/ask.gif"></a>|<a href="ansokan.html">
+						 Ansök! <img src="img/t-rex_e0.gif"></a>|<a href="https://www.facebook.com/bennsys"> FACEBOOK <img src="img/fbGif.gif"> </a>
 		    		</br>
 		    		<img class="dim" src="">
 		    	</div>
@@ -46,16 +73,25 @@
 
 		    <section class="ad">
 		    <a href="http://www.karolin-lnu.se/"><img src="img/251653.gif"></a>
-		    		
+
 		    </section>
 
 		    <article>
 
 		   		<section>
 
+					<div>
+		    		<h2>GILLA OSS PÅ FACEBOOK <img style="  width: 70px;" src="img/fbGif2.gif"></h2>
+		    		<a href="https://www.facebook.com/bennsys">Bennys Bitches på FB</a>
+					<br>
+					<div class="fb-like" data-href="https://www.facebook.com/bennsys" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+					<br>
+		    		<img src="img/blulinea.gif">
+		    		</div>
+
 		    		<div>
 		    		<h2>Om Oss! <img src="img/yoji.gif"></h2>
-		    		Året var 1993, under en stormig natt så skapade gudarna ett barn vars framtid skulle innebära en hel del bithes. I flera år låg hans krafter vilandes till en dag då det var dags för Kvastkamp 2015 och han öde skulle uppfyllas. Han blåste i Gethornet av Förintelse och så de första Bitches skapades. De kämpade sig igenom tävlingarna där de vann Lekarna och därmed fick folkets kärlek och tro. Folket kände därefter att de ville vara en del utav denna gemenskap och så skapades Benny's Mini Bitches, det första steget för att bli en fullbordad Bitch.
+		    		Året var 1993, under en stormig natt så skapade gudarna ett barn vars framtid skulle innebära en hel del bitches. I flera år låg hans krafter vilandes till en dag då det var dags för Kvastkamp 2015 och han öde skulle uppfyllas. Han blåste i Gethornet av Förintelse och så de första Bitches skapades. De kämpade sig igenom tävlingarna där de vann Lekarna och därmed fick folkets kärlek och tro. Folket kände därefter att de ville vara en del utav denna gemenskap och så skapades Benny's Mini Bitches, det första steget för att bli en fullbordad Bitch.
 		    		<img src="img/blulinea.gif">
 		    		</div>
 		    		</br>
@@ -64,13 +100,13 @@
 		    		<img id="faq" src="img/faq.gif">
 			    		<dl>
 						  <dt>Vad är huvudmålet med eran förening?</dt>
-						  <dd>- Sprida kärlek</dd>
+						  <dd>- Sprida kärlek.</dd>
 						  <dt>Vem är Benny?</dt>
-						  <dd>- 42</dd>
+						  <dd>- 42.</dd>
 						  <dt>Vad kostar medlemskap?</dt>
 						  <dd>- En öl!</dd>
 						  <dt>Hur blir man medlem?</dt>
-						  <dd>- Man fyller i ansöknings formuläret och hoppas på det bästa</dd>
+						  <dd>- Man fyller i ansöknings formuläret och hoppas på det bästa.</dd>
 						</dl>
 						<img src="img/blulinea.gif">
 		    		</div>
@@ -78,7 +114,7 @@
 		    </article>
 
 		    <audio autoplay id="intromusic" loop>
-	            <source src="MinBitches.mp3.mp3" type="audio/mpeg" />
+	            <source src="Benny-Hill-Theme.mp3.mp3" type="audio/mpeg" />
 	        </audio>
 
 		    <footer>

@@ -1,21 +1,21 @@
 <!--
-	 /$$$$$$$                                                          /$$$$$$$  /$$   /$$               /$$                          
-	| $$__  $$                                                        | $$__  $$|__/  | $$              | $$                          
+	 /$$$$$$$                                                          /$$$$$$$  /$$   /$$               /$$
+	| $$__  $$                                                        | $$__  $$|__/  | $$              | $$
 	| $$  \ $$  /$$$$$$  /$$$$$$$  /$$$$$$$  /$$   /$$  /$$$$$$$      | $$  \ $$ /$$ /$$$$$$    /$$$$$$$| $$$$$$$   /$$$$$$   /$$$$$$$
 	| $$$$$$$  /$$__  $$| $$__  $$| $$__  $$| $$  | $$ /$$_____/      | $$$$$$$ | $$|_  $$_/   /$$_____/| $$__  $$ /$$__  $$ /$$_____/
-	| $$__  $$| $$$$$$$$| $$  \ $$| $$  \ $$| $$  | $$|  $$$$$$       | $$__  $$| $$  | $$    | $$      | $$  \ $$| $$$$$$$$|  $$$$$$ 
+	| $$__  $$| $$$$$$$$| $$  \ $$| $$  \ $$| $$  | $$|  $$$$$$       | $$__  $$| $$  | $$    | $$      | $$  \ $$| $$$$$$$$|  $$$$$$
 	| $$  \ $$| $$_____/| $$  | $$| $$  | $$| $$  | $$ \____  $$      | $$  \ $$| $$  | $$ /$$| $$      | $$  | $$| $$_____/ \____  $$
 	| $$$$$$$/|  $$$$$$$| $$  | $$| $$  | $$|  $$$$$$$ /$$$$$$$/      | $$$$$$$/| $$  |  $$$$/|  $$$$$$$| $$  | $$|  $$$$$$$ /$$$$$$$/
-	|_______/  \_______/|__/  |__/|__/  |__/ \____  $$|_______/       |_______/ |__/   \___/   \_______/|__/  |__/ \_______/|_______/ 
-	                                         /$$  | $$                                                                                
-	                                        |  $$$$$$/                                                                                
-	                                         \______/                                                                                 
+	|_______/  \_______/|__/  |__/|__/  |__/ \____  $$|_______/       |_______/ |__/   \___/   \_______/|__/  |__/ \_______/|_______/
+	                                         /$$  | $$
+	                                        |  $$$$$$/
+	                                         \______/
 	Hemsida skapad av
-	
-	 ____ ____ ____ ____ ____ ____ ____ _________ ____ ____ ____ ____ ____ ____ ____ ____ 
+
+	 ____ ____ ____ ____ ____ ____ ____ _________ ____ ____ ____ ____ ____ ____ ____ ____
 	||R |||i |||c |||h |||a |||r |||d |||       |||S |||o |||d |||e |||r |||m |||a |||n ||
 	||__|||__|||__|||__|||__|||__|||__|||_______|||__|||__|||__|||__|||__|||__|||__|||__||
-	|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/_______\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|                                                                                                              
+	|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/_______\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|
  -->
 
 
@@ -25,10 +25,26 @@
         <meta charset="UTF-8"/>
         <link rel="icon" type="image/png" href="img/favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<meta property='og:title' content='Bennys Bitches' />
+		<meta property='og:site_name' content='http://bennysbitches.com'/>
+		<meta property='og:url' content='http://bennysbitches.com/medlemmar.html' />
+		<meta property='og:description' content='Året var 1993, under en stormig natt så skapade gudarna ett barn vars framtid skulle innebära en hel del bithes. I flera år låg hans krafter vilandes till en dag då det var dags för Kvastkamp 2015 och han öde skulle uppfyllas. Han blåste i Gethornet av Förintelse och så de första Bitches skapades. De kämpade sig igenom tävlingarna där de vann Lekarna och därmed fick folkets kärlek och tro. Folket kände därefter att de ville vara en del utav denna gemenskap och så skapades Bennys Mini Bitches, det första steget för att bli en fullbordad Bitch.' />
+		<meta property='og:image' content='img/bennsys.jpg'/>
+		<meta property='og:image:type' content='image/jpg'/>
+
         <title>Bennys Bitches</title>
     </head>
     <body>
+		<template id="template">
+			<div class="cockie">
+				<span>Vi använder oss av kakor för att locka nya medlemmar!</span>
+				<input type="submit" id="jf" value="Jag förstår">
+				<input type="submit" id="ok" value="Okej">
+			</div>
+		</template>
 	    <main>
+			<div id="cockieHolder"></div>
 	    <img id="iconas" src="img/bennsys.jpg">
 		    <header>
 		    	<h1><img id="img_smal" src="img/drudgesiren.gif"> Välkommen till Bennys Bitches hemsida! <img src="img/212.gif"></h1>
@@ -36,7 +52,8 @@
 		    	<div id="menu">
 		    		<img class="dim" src="">
 		    		</br>
-		    		<a href="index.html">Start <img src="img/moblog_2da64cc6.gif"></a>|<a href="medlemmar.html"> medlemmar <img src="img/heart_turn.gif"> </a>|<a href="stadga.html">Stadga <img src="img/new.gif"></a>|<a href="kontakt.html"> Kontakt <img src="img/ask.gif"></a>|<a href="ansokan.html"> Ansök! <img src="img/t-rex_e0.gif"> </a>
+					<a href="index.html">Start <img src="img/moblog_2da64cc6.gif"></a>|<a href="medlemmar.html"> medlemmar <img src="img/heart_turn.gif"> </a>|<a href="stadga.html">Stadga <img src="img/new.gif"></a>|<a href="kontakt.html"> Kontakt <img src="img/ask.gif"></a>|<a href="ansokan.html">
+						 Ansök! <img src="img/t-rex_e0.gif"></a>|<a href="https://www.facebook.com/bennsys"> FACEBOOK <img src="img/fbGif.gif"> </a>
 		    		</br>
 		    		<img class="dim" src="">
 		    	</div>
@@ -45,7 +62,7 @@
 
 		    <section class="ad">
 		    <a href="http://www.karolin-lnu.se/"><img src="img/getmoney.gif"></a>
-		    		
+
 		    </section>
 
 		    <article style="overflow-y: scroll; overflow-x:none; height:500px; border: 1px solid black; margin-bottom:50px;">
@@ -55,12 +72,12 @@
 			    	<table>
 					  <tr>
 					    <td>Namn:</td>
-					    <td>Bennys</td> 
+					    <td>Bennys</td>
 					    <td>Carlsson</td>
 					  </tr>
 					  <tr>
 					    <td>Titel:</td>
-					    <td>Benny</td> 
+					    <td>Benny</td>
 					  </tr>
 					</table>
 				</div>
@@ -70,12 +87,12 @@
 			    	<table>
 					  <tr>
 					    <td>Namn:</td>
-					    <td>Sara</td> 
+					    <td>Sara</td>
 					    <td>Pettersson</td>
 					  </tr>
 					  <tr>
 					    <td>Titel:</td>
-					    <td>Nr 1 Bitch</td> 
+					    <td>Nr 1 Bitch</td>
 					  </tr>
 					</table>
 				</div>
@@ -85,12 +102,12 @@
 			    	<table>
 					  <tr>
 					    <td>Namn:</td>
-					    <td>Richard</td> 
+					    <td>Richard</td>
 					    <td>Söderman</td>
 					  </tr>
 					  <tr>
 					    <td>Titel:</td>
-					    <td>Skinny Bitch</td> 
+					    <td>Skinny Bitch</td>
 					  </tr>
 					</table>
 				</div>
@@ -100,12 +117,12 @@
 			    	<table>
 					  <tr>
 					    <td>Namn:</td>
-					    <td>Hampus</td> 
+					    <td>Hampus</td>
 					    <td>Jarleborn</td>
 					  </tr>
 					  <tr>
 					    <td>Titel:</td>
-					    <td>Hobo Bitch</td> 
+					    <td>Hobo Bitch</td>
 					  </tr>
 					</table>
 				</div>
@@ -115,12 +132,12 @@
 			    	<table>
 					  <tr>
 					    <td>Namn:</td>
-					    <td>Sandra</td> 
+					    <td>Sandra</td>
 					    <td>Hansson</td>
 					  </tr>
 					  <tr>
 					    <td>Titel:</td>
-					    <td>Dirty Bitch</td> 
+					    <td>Dirty Bitch</td>
 					  </tr>
 					</table>
 				</div>
@@ -130,12 +147,12 @@
 			    	<table>
 					  <tr>
 					    <td>Namn:</td>
-					    <td>Emilia</td> 
+					    <td>Emilia</td>
 					    <td>Drake Af Hagelsrum</td>
 					  </tr>
 					  <tr>
 					    <td>Titel:</td>
-					    <td>Dragon Bitch</td> 
+					    <td>Dragon Bitch</td>
 					  </tr>
 					</table>
 				</div>
@@ -145,12 +162,12 @@
 			    	<table>
 					  <tr>
 					    <td>Namn:</td>
-					    <td>Kristoffer</td> 
+					    <td>Kristoffer</td>
 					    <td>Svensson</td>
 					  </tr>
 					  <tr>
 					    <td>Titel:</td>
-					    <td>Ginger Bitch</td> 
+					    <td>Ginger Bitch</td>
 					  </tr>
 					</table>
 				</div>
@@ -160,19 +177,19 @@
 			    	<table>
 					  <tr>
 					    <td>Namn:</td>
-					    <td>Anton</td> 
+					    <td>Anton</td>
 					    <td>Larsson</td>
 					  </tr>
 					  <tr>
 					    <td>Titel:</td>
-					    <td>Hyper Bitch</td> 
+					    <td>Hyper Bitch</td>
 					  </tr>
 					</table>
 				</div>
 		    </article>
 
 		    <audio autoplay id="intromusic" loop>
-	            <source src="MinBitches.mp3.mp3" type="audio/mpeg" />
+	            <source src="Benny-Hill-Theme.mp3.mp3" type="audio/mpeg" />
 	        </audio>
 
 		    <footer>

@@ -1,49 +1,34 @@
 'use strict';
 
-function getMouseCoords(e) {
-  var e = e || window.event;
-  //document.getElementById('msg').innerHTML = e.clientX + ', ' + 
-   //        e.clientY + '<br>' + e.screenX + ', ' + e.screenY;
+function init() {
+    if(!sessionStorage.cockie){
+        kakor();
+    }
 }
 
+function kakor(){
+    var template = document.querySelector("#template");
+    var cockieHolder = document.querySelector("#cockieHolder");
+    var cockie = template.content.querySelector(".cockie");
+    cockieHolder.appendChild(cockie);
 
-var followCursor = (function() {
-  var s = document.createElement('div');
-  s.setAttribute('class', 'folow');
+    var ok = cockie.querySelector("#ok");
+    var jf = cockie.querySelector("#jf");
 
-  return {
-    init: function() {
-      document.body.appendChild(s);
-    },
 
-    run: function(e) {
-      var e = e || window.event;
-      s.style.left  = (e.clientX - 20) + 'px';
-      s.style.top = (e.clientY - 50) + 'px';
-      getMouseCoords(e);
+    ok.addEventListener("click", Kaka);
+    jf.addEventListener("click", Kaka);
+
+    function Kaka(){
+        cockieHolder.removeChild(cockie);
+        sessionStorage.cockie = true;
+
+        document.cookie="username=bennys bitches; expires=Fre, 18 Dec 2015 12:00:00 UTC";
     }
-  };
-}());
+}
 
 window.onload = function() {
-  //followCursor.init();
-  //document.body.onmousemove = followCursor.run;
-}
+    init();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+};

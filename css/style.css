@@ -3,6 +3,32 @@ html, body{
 	padding: 0;
 }
 
+.cockie{
+
+	height: 50px;
+	background-color: lightyellow;
+	border-bottom: 1px solid gray;
+	text-align: center;
+	line-height: 45px;
+}
+
+.cockie span {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.cockie img {
+	width: 20px;
+}
+
+.cockie input{
+
+	margin-left: 10px;
+	height:40px;
+	width: 80px;
+}
+
 header{
 	text-align: center;
 	background-color: aqua;
@@ -29,11 +55,11 @@ header h1{
 }
 
 .folow{
-  
+
   position: absolute;
   margin: 0px;
-  
-  
+
+
   width: 110px;
   height: 40px;
 

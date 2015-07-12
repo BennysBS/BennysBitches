@@ -1,21 +1,21 @@
 <!--
-	 /$$$$$$$                                                          /$$$$$$$  /$$   /$$               /$$                          
-	| $$__  $$                                                        | $$__  $$|__/  | $$              | $$                          
+	 /$$$$$$$                                                          /$$$$$$$  /$$   /$$               /$$
+	| $$__  $$                                                        | $$__  $$|__/  | $$              | $$
 	| $$  \ $$  /$$$$$$  /$$$$$$$  /$$$$$$$  /$$   /$$  /$$$$$$$      | $$  \ $$ /$$ /$$$$$$    /$$$$$$$| $$$$$$$   /$$$$$$   /$$$$$$$
 	| $$$$$$$  /$$__  $$| $$__  $$| $$__  $$| $$  | $$ /$$_____/      | $$$$$$$ | $$|_  $$_/   /$$_____/| $$__  $$ /$$__  $$ /$$_____/
-	| $$__  $$| $$$$$$$$| $$  \ $$| $$  \ $$| $$  | $$|  $$$$$$       | $$__  $$| $$  | $$    | $$      | $$  \ $$| $$$$$$$$|  $$$$$$ 
+	| $$__  $$| $$$$$$$$| $$  \ $$| $$  \ $$| $$  | $$|  $$$$$$       | $$__  $$| $$  | $$    | $$      | $$  \ $$| $$$$$$$$|  $$$$$$
 	| $$  \ $$| $$_____/| $$  | $$| $$  | $$| $$  | $$ \____  $$      | $$  \ $$| $$  | $$ /$$| $$      | $$  | $$| $$_____/ \____  $$
 	| $$$$$$$/|  $$$$$$$| $$  | $$| $$  | $$|  $$$$$$$ /$$$$$$$/      | $$$$$$$/| $$  |  $$$$/|  $$$$$$$| $$  | $$|  $$$$$$$ /$$$$$$$/
-	|_______/  \_______/|__/  |__/|__/  |__/ \____  $$|_______/       |_______/ |__/   \___/   \_______/|__/  |__/ \_______/|_______/ 
-	                                         /$$  | $$                                                                                
-	                                        |  $$$$$$/                                                                                
-	                                         \______/                                                                                 
+	|_______/  \_______/|__/  |__/|__/  |__/ \____  $$|_______/       |_______/ |__/   \___/   \_______/|__/  |__/ \_______/|_______/
+	                                         /$$  | $$
+	                                        |  $$$$$$/
+	                                         \______/
 	Hemsida skapad av
-	 ____ ____ ____ ____ ____ ____ ____ _________ ____ ____ ____ ____ ____ ____ ____ ____ 
+	 ____ ____ ____ ____ ____ ____ ____ _________ ____ ____ ____ ____ ____ ____ ____ ____
 	||R |||i |||c |||h |||a |||r |||d |||       |||S |||o |||d |||e |||r |||m |||a |||n ||
 	||__|||__|||__|||__|||__|||__|||__|||_______|||__|||__|||__|||__|||__|||__|||__|||__||
-	|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/_______\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|  
-	                                                                                                                      
+	|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/_______\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|
+
  -->
 
 
@@ -25,11 +25,27 @@
         <meta charset="UTF-8"/>
         <link rel="icon" type="image/png" href="img/favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+		<meta property='og:title' content='Bennys Bitches' />
+		<meta property='og:site_name' content='http://bennysbitches.com'/>
+		<meta property='og:url' content='http://bennysbitches.com/stadga.html' />
+		<meta property='og:description' content='Året var 1993, under en stormig natt så skapade gudarna ett barn vars framtid skulle innebära en hel del bithes. I flera år låg hans krafter vilandes till en dag då det var dags för Kvastkamp 2015 och han öde skulle uppfyllas. Han blåste i Gethornet av Förintelse och så de första Bitches skapades. De kämpade sig igenom tävlingarna där de vann Lekarna och därmed fick folkets kärlek och tro. Folket kände därefter att de ville vara en del utav denna gemenskap och så skapades Bennys Mini Bitches, det första steget för att bli en fullbordad Bitch.' />
+		<meta property='og:image' content='img/bennsys.jpg'/>
+		<meta property='og:image:type' content='image/jpg'/>
+
         <title>Bennys Bitches</title>
     </head>
     <body>
-    	
+		<template id="template">
+			<div class="cockie">
+				<span>Vi använder oss av kakor för att locka nya medlemmar!</span>
+				<input type="submit" id="jf" value="Jag förstår">
+				<input type="submit" id="ok" value="Okej">
+			</div>
+		</template>
 	    <main>
+			<div id="cockieHolder"></div>
 	    <img id="iconas" src="img/bennsys.jpg">
 		    <header>
 		    	<h1><img id="img_smal" src="img/drudgesiren.gif"> Välkommen till Bennys Bitches hemsida! <img src="img/212.gif"></h1>
@@ -37,7 +53,8 @@
 		    	<div id="menu">
 		    		<img class="dim" src="">
 		    		</br>
-		    		<a href="index.html">Start <img src="img/moblog_2da64cc6.gif"></a>|<a href="medlemmar.html"> medlemmar <img src="img/heart_turn.gif"> </a>|<a href="stadga.html">Stadga <img src="img/new.gif"></a>|<a href="kontakt.html"> Kontakt <img src="img/ask.gif"></a>|<a href="ansokan.html"> Ansök! <img src="img/t-rex_e0.gif"> </a>
+					<a href="index.html">Start <img src="img/moblog_2da64cc6.gif"></a>|<a href="medlemmar.html"> medlemmar <img src="img/heart_turn.gif"> </a>|<a href="stadga.html">Stadga <img src="img/new.gif"></a>|<a href="kontakt.html"> Kontakt <img src="img/ask.gif"></a>|<a href="ansokan.html">
+						 Ansök! <img src="img/t-rex_e0.gif"></a>|<a href="https://www.facebook.com/bennsys"> FACEBOOK <img src="img/fbGif.gif"> </a>
 		    		</br>
 		    		<img class="dim" src="">
 		    	</div>
@@ -45,7 +62,7 @@
 
 		    <section class="ad">
 		    <a href="http://www.karolin-lnu.se/"><img src="img/251653.gif"></a>
-		    		
+
 		    </section>
 
 		    <article>
@@ -59,13 +76,13 @@
 		    		§1 NAMN
 		    		</br>
 		    		</br>
-		    		”Föreningens” namn är Bennys Bitches. 
+		    		”Föreningens” namn är Bennys Bitches.
 					</br>
 					</br>
 					§2 SYFTE
 					</br>
 					</br>
-					”Föreningens” första syfte är att sprida kärlek. Andra mål Bennys Bitches har är att: införskaffa segways till alla, hoppborg på innergården, hängmattor på diverse lämpliga platser och att Linnestudenterna ska köpa biosalongen Saga för föreläsningar med gratis popcorn. 
+					”Föreningens” första syfte är att sprida kärlek. Andra mål Bennys Bitches har är att: införskaffa segways till alla, hoppborg på innergården, hängmattor på diverse lämpliga platser och att Linnestudenterna ska köpa biosalongen Saga för föreläsningar med gratis popcorn.
 					</br>
 					</br>
 					§3 ORGANISATION
@@ -74,10 +91,10 @@
 					Bennys Bitches måste bestå utav en Benny och minst 1 Bitch
 					</br>
 					</br>
-					§4 MEDLEMSKAP 
+					§4 MEDLEMSKAP
 					</br>
 					</br>
-					§4.1 Bitch 
+					§4.1 Bitch
 					</br>
 					</br>
 					Genom att ha spenderat en viss tid som Mini-Bitch och genom engagemang deltagit och spridit kärlek
@@ -86,13 +103,13 @@
 					§4.2 Mini-Bitch
 					</br>
 					</br>
-					För att bli Mini-Bitch bör man fylla i ett google formulär, och sedan göra det Benny och hans Bitchar säger. 
+					För att bli Mini-Bitch bör man fylla i ett google formulär, och sedan göra det Benny och hans Bitchar säger.
 					</br>
 					</br>
 					§4.3 Heders-Bitch
 					</br>
 					</br>
-					Blir man endast om man har gjort något betydande och hjälpsamt för föreningen. 
+					Blir man endast om man har gjort något betydande och hjälpsamt för föreningen.
 					</br>
 					</br>
 					§4.3 Uteslutningar
@@ -125,7 +142,7 @@
 					§7 STAGAR
 					</br>
 					</br>
-					Vid ändring av stagar krävs endast ett godkännande av Benny. Eller kanske någon högt uppsatt Bitch. 
+					Vid ändring av stagar krävs endast ett godkännande av Benny. Eller kanske någon högt uppsatt Bitch.
 					</br>
 					</br>
 		    		<img src="img/blulinea.gif">
@@ -134,7 +151,7 @@
 		    </article>
 
 		    <audio autoplay id="intromusic" loop>
-	            <source src="MinBitches.mp3.mp3" type="audio/mpeg" />
+	            <source src="Benny-Hill-Theme.mp3.mp3" type="audio/mpeg" />
 	        </audio>
 
 		    <footer>
