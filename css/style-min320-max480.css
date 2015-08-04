@@ -1,0 +1,24 @@
+.gifI {
+    /*display:none;*/
+}
+
+.ad{
+    display: none;
+}
+
+article {
+    width: initial;
+    margin: 8px;
+}
+
+.hidden{
+    display: none;
+}
+
+.cockie {
+    height: 100px;
+}
+
+header h1 {
+    height: 90vh;
+}

@@ -27,8 +27,11 @@ function kakor(){
     }
 }
 
+function mobile(){
+    var ads = document.querySelectorAll(".ad");
+    var gifs = document.querySelectorAll(".gifI");
+}
+
 window.onload = function() {
     init();
-
-
 };
