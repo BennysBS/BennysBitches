@@ -44,10 +44,27 @@ header h1{
 #menu{
 	font-size: 24px;
 	background-color: blanchedalmond;
+
 }
 
 #menu img{
 	height: 24px;
+}
+
+#menuWrap{
+	display: -webkit-box;
+}
+
+#menuWrap ul{
+	margin:auto;
+	padding: 0;
+}
+
+#menuWrap li {
+	list-style-type:none;
+	float:left;
+
+
 }
 
 #img_smal{
@@ -63,13 +80,13 @@ header h1{
   width: 110px;
   height: 40px;
 
-  background-image: url("../img/justclick.gif");
+  background-image: url("../gifs/just_click.gif");
   background-repeat: repeat-x;
 }
 
 .dim{
 	width: 100%;
-	background-image: url("../img/diamonds.gif");
+	background-image: url("../gifs/diamond_line.gif");
 	background-repeat: repeat-x;
 }
 
@@ -146,7 +163,7 @@ footer{
 
 
 footer div{
-	background-image: url("../img/background_animated_twinkle_color_stars.gif");
+	background-image: url("../gifs/stars.gif");
 	background-repeat: repeat-x;
 }
 
